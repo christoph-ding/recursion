@@ -34,7 +34,7 @@ var getElementsByClassName = function(className){
     return elements_which_fit;
     };
 
-  return recur(classNames);
+  return recur(className);
 };
 
 
